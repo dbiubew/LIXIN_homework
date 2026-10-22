@@ -18,9 +18,11 @@
 *.hex
 *.bin
 
-# 保留手动归档的发布固件
-!/03_Firmware/**/*.hex
-!/03_Firmware/**/*.bin
+# 仅保留各固件工程 Release 目录中的归档固件
+!/03_Firmware/01_Bootloader/*/Release/**/*.hex
+!/03_Firmware/01_Bootloader/*/Release/**/*.bin
+!/03_Firmware/02_APP/*/Release/**/*.hex
+!/03_Firmware/02_APP/*/Release/**/*.bin
 
 # Keil 个人界面状态与备份
 *.uvguix.*
