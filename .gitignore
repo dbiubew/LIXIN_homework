@@ -1,0 +1,37 @@
+# 当前 LED 工程的编译输出
+**/MDK-ARM/LED/
+
+# 编译中间文件与报告
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.map
+*.lst
+*.lnp
+*.dep
+*.build_log.htm
+
+# 开发过程中生成的固件
+*.hex
+*.bin
+
+# 保留手动归档的发布固件
+!/03_Firmware/**/*.hex
+!/03_Firmware/**/*.bin
+
+# Keil 个人界面状态与备份
+*.uvguix.*
+*.uvgui.*
+*.uvprojx.bak
+*.uvoptx.bak
+
+# 调试日志
+JLinkLog*.txt
+
+# 系统临时文件
+Thumbs.db
+Desktop.ini
+.DS_Store
